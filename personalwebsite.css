@@ -1,5 +1,91 @@
 .bio {
-    height: 1824px;
-    background-color: #41499c;
+    height: 800px;
+    
 
+}
+
+
+.about {
+    height: 800px;
+    
+
+
+}
+
+
+.projects {
+    height: 800px;
+}
+
+.name {
+    overflow: hidden; /* content not revealed until the animation*/
+    font-family: 'Arimo', sans-serif;
+    white-space: nowrap; /* stay on one line */
+    animation: typing 5s steps(400);
+    font-size: 75px;
+
+}
+
+.pronouns {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+   
+
+}
+
+.school, .job {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.line {
+    border-top: .15em solid #e0d8d5;
+    width: 500px;
+    border-width: 5px;
+    border-radius: 3px;
+}
+
+.socials {
+    display: grid;
+    grid-template-columns: 20px 20px 40px;
+    grid-column-gap: 10px;
+    grid-template-areas:
+    "icon icon email";
+}
+
+.icon {
+    display: icon;
+    font-size: 20px;
+    margin-top: 20px;
+    color:black;
+}
+
+.email {
+    display: email;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 18px;
+    text-decoration: underline;
+    color: black;
+    font-weight: 900;
+}
+
+#github:hover {
+    color: #24292e;
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    color: #0077b5;
+    cursor: pointer;
 }
