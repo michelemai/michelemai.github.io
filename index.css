@@ -1,26 +1,24 @@
 .bio {
     height: 800px;
-    /*background-image: url('IMG-4597.svg');*/
     position: relative;
     
 }
 
 .bioText {
     margin-left: 200px;
-    margin-top: -700px;
+    margin-top: -800px;
     position: absolute;
 }
 
 
-.about {
+#about {
+    display: about;
     height: 800px;
-    
-
-
 }
 
 
-.projects {
+#projects {
+    display: projects;
     height: 800px;
 }
 
@@ -30,6 +28,8 @@
     white-space: nowrap; /* stay on one line */
     animation: typing 5s steps(400);
     font-size: 75px;
+    color: #627ba3;
+    font-weight: 100px;
 
 }
 
@@ -58,8 +58,8 @@
 .line {
     border-top: .15em solid #e0d8d5;
     width: 500px;
-    border-width: 5px;
-    
+    border-width: 5px; 
+    margin-top: 50px; 
 }
 
 .socials {
@@ -68,6 +68,7 @@
     grid-column-gap: 10px;
     grid-template-areas:
     "icon icon email";
+    margin-top: 20px;
 }
 
 .icon {
@@ -100,4 +101,30 @@
 .profile {
     margin-left: 600px;
     margin-top: -500px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 20px 20px;
+    grid-column-gap: 100px;
+    grid-template-areas:
+    "about projects";
+    margin-top: 30px;
+}
+
+#aboutLink, #projectLink {
+    height: 20px;
+    width: 100px;
+    white-space: nowrap; /* stay on one line */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    background-image: url(yellow-brushstroke.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+
+    
 }
