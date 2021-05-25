@@ -1,7 +1,14 @@
 .bio {
     height: 800px;
+    /*background-image: url('IMG-4597.svg');*/
+    position: relative;
     
+}
 
+.bioText {
+    margin-left: 200px;
+    margin-top: -700px;
+    position: absolute;
 }
 
 
@@ -52,7 +59,7 @@
     border-top: .15em solid #e0d8d5;
     width: 500px;
     border-width: 5px;
-    border-radius: 3px;
+    
 }
 
 .socials {
@@ -88,4 +95,9 @@
 #linkedin:hover {
     color: #0077b5;
     cursor: pointer;
+}
+
+.profile {
+    margin-left: 600px;
+    margin-top: -500px;
 }
