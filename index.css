@@ -1,12 +1,13 @@
 .bio {
     height: 800px;
     position: relative;
+    overflow: hidden;
     
 }
 
 .bioText {
-    margin-left: 200px;
-    margin-top: -800px;
+    margin-left: 150px;
+    margin-top: -900px;
     position: absolute;
 }
 
@@ -98,9 +99,11 @@
     cursor: pointer;
 }
 
+
 .profile {
-    margin-left: 600px;
-    margin-top: -500px;
+    margin-left: 650px;
+    margin-top: -350px;
+    opacity: 0.7;
 }
 
 .links {
