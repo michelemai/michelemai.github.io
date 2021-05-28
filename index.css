@@ -17,13 +17,14 @@
     background-color: #f5f0f1;
     height: 800px;
     position: relative;
+    overflow: hidden;
 
 }
 
 
 #projects {
-    
-    height: 800px;
+    overflow: hidden;
+    height: 1200px;
 }
 
 .name {
@@ -178,4 +179,79 @@ mark {
     position: absolute;
     margin-left: 1050px;
     margin-top: 500px;
+}
+
+.timeline {
+    display: grid;
+    grid-template-columns: 50px 20px 50px;
+    grid-template-rows: 50px 50px;
+    grid-template-areas: 
+    "date1 line text1"
+    "text2 line date2";
+
+
+    
+}
+
+.verticalLine {
+    display: line;
+    border-left: 6px solid #e0e0e0;
+    margin-left: 600px;
+    margin-top: 200px;
+    height: 800px;
+}
+
+#dollar {
+    font-size: 50px;
+    margin-left: -25px;
+    margin-top: 20px;
+    color: #7a8769;
+}
+
+.date1 {
+    display: date1;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 500px;
+    margin-top: 230px;
+    font-size: 20px;
+    color: #77778c;
+}
+
+.text1{
+    display: text1;
+    border: 6px solid black;
+    margin-left: 625px;
+    margin-top: 220px;
+    width: 600px;
+    height: 300px;
+}
+
+#game {
+    font-size: 50px;
+    margin-left: -35px;
+    margin-top: 300px;
+    color: #a1063a;
+}
+
+.date2 {
+    display: date2;
+    white-space: nowrap;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 725px;
+    margin-top: 532px;
+    font-size: 20px;
+    color: #77778c;
+
+}
+
+.text2{
+    display: text1;
+    border: 6px solid black;
+    margin-left: -50px;
+    margin-top: 530px;
+    width: 600px;
+    height: 300px;
 }
