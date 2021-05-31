@@ -25,6 +25,7 @@
 #projects {
     overflow: hidden;
     height: 1200px;
+    background-color: #fffde8;
 }
 
 .name {
@@ -213,15 +214,14 @@ mark {
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    margin-left: 500px;
-    margin-top: 230px;
-    font-size: 20px;
+    margin-left: 455px;
+    margin-top: 220px;
+    font-size: 30px;
     color: #77778c;
 }
 
 .text1{
     display: text1;
-    border: 6px solid black;
     margin-left: 625px;
     margin-top: 220px;
     width: 600px;
@@ -241,17 +241,32 @@ mark {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     margin-left: 725px;
-    margin-top: 532px;
-    font-size: 20px;
+    margin-top: 525px;
+    font-size: 30px;
     color: #77778c;
 
 }
 
 .text2{
     display: text1;
-    border: 6px solid black;
     margin-left: -50px;
     margin-top: 530px;
     width: 600px;
     height: 300px;
+}
+
+.projectTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 30px;
+    color: black;
+
+}
+
+.projectImage{
+    margin-top: 10px;
+    max-width:100%;
+    max-height:100%;
 }
