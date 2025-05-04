@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div id="home" className="mt-30 scroll-mt-32">
         <div className="flex flex-col">
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap mb-30">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
                         
@@ -46,7 +46,7 @@ const Home = () => {
                         <motion.span variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="font-cascadia text-4xl font-light">
+                            className="font-cascadia text-2xl font-light">
                             Software Engineer
                         </motion.span>
                         <motion.p variants={container(1)}
@@ -68,14 +68,13 @@ const Home = () => {
                     </div>
                     
                 </div>
-                <div className="lg:w-1/2">
+                <div className="w-full lg:w-1/2">
                     <div className="flex justify-center">
                         <motion.img 
-                        className="w-full h-full"
                         initial={{x:100, opacity: 0}}
                         animate={{x:0, opacity: 1}}
                         transition={{duration: 1, delay: 1.2}}
-                        src={profile} alt="profile" />
+                        src={profile} alt="profile"/>
                     </div>
 
                 </div>
