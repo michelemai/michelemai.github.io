@@ -5,7 +5,7 @@ import girl from "../assets/gifs/girl6.gif"
 
 const Projects = () => {
   return (
-    <div id="projects" className="flex flex-col pb-4 scroll-mt-32">
+    <div id="projects" className="flex flex-col scroll-mt-32">
         <motion.div
         whileInView={{ opacity: 1, y: 0}}
         initial={{ opacity: 0, y:-100 }}

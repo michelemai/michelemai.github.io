@@ -5,7 +5,7 @@ import girl from "../assets/gifs/girl8.gif"
 
 const Experience = () => {
   return (
-    <div id="experience" className="flex flex-col pb-4 scroll-mt-32">
+    <div id="experience" className="flex flex-col scroll-mt-32">
         <motion.div
         whileInView={{ opacity: 1, y: 0}}
         initial={{ opacity: 0, y:-100 }}
@@ -21,7 +21,7 @@ const Experience = () => {
 
         <div className="mb-30">
             {EXPERIENCES.map((experience, index) => (
-                <div key={index} className="mb-8 flex flex-wrap lg: justify-center "> 
+                <div key={index} className="mb-8 flex flex-wrap lg:justify-center"> 
                     <motion.div 
                     whileInView={{ opacity: 1, x: 0}}
                     initial={{ opacity: 0, x:-100 }}

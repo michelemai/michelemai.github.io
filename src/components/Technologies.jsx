@@ -11,7 +11,7 @@ import girl from "../assets/gifs/girl7.gif";
 
 const Technologies = () => {
   return (
-    <div className="flex flex-col pb-24">
+    <div className="flex flex-col">
         <motion.div
         whileInView={{ opacity: 1, y: 0}}
         initial={{ opacity: 0, y:-100 }}

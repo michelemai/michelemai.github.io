@@ -21,7 +21,7 @@ const container = (delay) => ({
 
 const Home = () => {
   return (
-    <div id="home" className="pb-30 mt-30 lg:mb-35 scroll-mt-32">
+    <div id="home" className="mt-30 scroll-mt-32">
         <div className="flex flex-col">
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
@@ -33,10 +33,11 @@ const Home = () => {
                             initial="hidden"
                             animate="visible"
                             >
-                            <h1 className="text-brown font-singleday pt-14 pb-16 pr-0 text-6xl lg:mt-16 lg:text-8xl">Hi, I'm Michele!
+                            <h1 className="flex text-brown font-singleday pt-14 pb-10 pr-0 text-6xl lg:mt-16 lg:text-8xl">Hi, I'm Michele!
 
-                            <img src={wavingKitty} alt="waving hello kitty gif" className="w-15 h-15 inline-block relative -top-1"/>
+                            
                             </h1>
+                            <img src={wavingKitty} alt="waving hello kitty gif" className="flex w-15 h-15 lg:relative -bottom-10"/>
                             
                             
                         
@@ -45,7 +46,7 @@ const Home = () => {
                         <motion.span variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="font-cascadia text-4xl font-medium italic">
+                            className="font-cascadia text-4xl font-light">
                             Software Engineer
                         </motion.span>
                         <motion.p variants={container(1)}
