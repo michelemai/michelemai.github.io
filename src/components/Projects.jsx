@@ -17,7 +17,7 @@ const Projects = () => {
             <img className="flex w-auto h-20"src={girl} alt="girl"/>
         </motion.div>
         <div className="mb-30"> {PROJECTS.map((project, index) => (
-            <div key={index} className="mb-8 flex flex-wrap lg:justify-center ">
+            <div key={index} className="mb-8 flex flex-wrap lg:justify-center rounded-4xl bg-pink-50 p-10 shadow-sm border border-pink-200 lg:max-w-3xl lg:mx-auto">
                 <motion.div 
                 whileInView={{ opacity: 1, x: 0}}
                 initial={{ opacity: 0, x:-100 }}
@@ -30,10 +30,10 @@ const Projects = () => {
                 initial={{ opacity: 0, x:100 }}
                 transition={{duration: 1}}
                 className="w-full max-w-xl lg:w-3/4">
-                    <h6 className="mb-2 font-semibold">{project.title}</h6>
+                    <h6 className="mb-2 font-singleday text-3xl">{project.title}</h6>
                     <p className="mb-4 text-neutral-400">{project.description}</p>
                     {project.technologies.map((tech, index)=> (
-                        <span key={index} className="mr-2 rounded bg-neutral-200 px-2 py-1 text-small font-medium text-purple-800">{tech}</span>
+                        <span key={index} className="mr-2 rounded-full font-mono bg-blue-100 px-2 py-2 text-sm font-medium text-blue-400">{tech}</span>
                     ))}
 
                 </motion.div>
