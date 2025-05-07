@@ -3,6 +3,10 @@ import { FaNodeJs } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiCsswizardry } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { TiHtml5 } from "react-icons/ti";
 import {motion} from "framer-motion";
 import heartBorder from "../assets/gifs/heartdiv1.gif";
 import girl from "../assets/gifs/girl7.gif";
@@ -11,7 +15,7 @@ import girl from "../assets/gifs/girl7.gif";
 
 const Technologies = () => {
   return (
-    <div className="flex flex-col">
+    <div id="technologies" className="flex flex-col scroll-mt-32">
         <motion.div
         whileInView={{ opacity: 1, y: 0}}
         initial={{ opacity: 0, y:-100 }}
@@ -34,17 +38,40 @@ const Technologies = () => {
                 <FaPython className="text-7xl text-blue-500" />
                 
             </motion.div>
+
+            <motion.div 
+            
+            className="opacity-75">
+                <FaJava className="text-7xl text-red-500" />
+            </motion.div>
+
             <motion.div 
             
             className="opacity-75">
                 <FaNodeJs className="text-7xl text-green-500" />
                 
             </motion.div>
-            <motion.div 
-            
+
+            <motion.div
             className="opacity-75">
-                <FaJava className="text-7xl text-red-500" />
+                <BiLogoTypescript className="text-7xl text-blue-400" />
             </motion.div>
+
+            <motion.div
+            className="opacity-75">
+                <TiHtml5 className="text-7xl text-orange-500" />
+            </motion.div>
+
+            <motion.div
+            className="opacity-75">
+                <SiCsswizardry className="text-6xl text-blue-300" />
+            </motion.div>
+
+            <motion.div
+            className="opacity-75">
+                <FaReact className="text-7xl text-blue-600" />
+            </motion.div>
+           
             <motion.div 
             
             className="opacity-75">

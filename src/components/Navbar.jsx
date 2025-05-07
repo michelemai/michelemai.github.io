@@ -31,6 +31,7 @@ const Navbar = () => {
                 <img src={waveGif} alt="waving"/>
                 <a href="#home" className="hover:text-gray-400 transition-colors">Home</a>
                 <a href="#about" className="hover:text-gray-400 transition-colors">About</a>
+                <a href="#technologies" className="hover:text-gray-400 transition-colors">Technologies</a>
                 <a href="#experience" className="hover:text-gray-400 transition-colors">Experience</a>
                 <a href="#projects" className="hover:text-gray-400 transition-colors">Projects</a>
 
@@ -42,6 +43,7 @@ const Navbar = () => {
             <div className="md:hidden fixed inset-0 bg-rose-50 flex flex-col items-center justify-center space-y-8 text-brown font-singleday text-2xl z-40">
                 <a href="#home" onClick={() => setIsOpen(false)}>Home</a>
                 <a href="#about" onClick={() => setIsOpen(false)}>About</a>
+                <a href="#technologies" onClick={() => setIsOpen(false)}>Technologies</a>
                 <a href="#experience" onClick={() => setIsOpen(false)}>Experience</a>
                 <a href="#projects" onClick={() => setIsOpen(false)}>Projects</a>
 
