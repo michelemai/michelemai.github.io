@@ -34,7 +34,7 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Paypal",
     description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    technologies: ["Ruby", "Rails", "PHP", "Sqlite", "Postgres"],
   },
 ];
 
@@ -44,6 +44,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    link:"https://github.com/michele8231/UBC-Course-Connect",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
@@ -51,6 +52,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    link:"https://github.com/michele8231/UBC-Course-Connect",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
@@ -58,6 +60,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
+    link:"https://github.com/michele8231/UBC-Course-Connect",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
@@ -65,6 +68,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    link:"https://github.com/michele8231/UBC-Course-Connect",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
