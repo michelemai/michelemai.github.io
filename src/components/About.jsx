@@ -2,7 +2,8 @@ import kitty from "../assets/kitty.png"
 import girl from "../assets/gifs/girl6.gif"
 import things from "../assets/things.png"
 import heartBorder from "../assets/gifs/heartdiv1.gif"
-import { ABOUT_TEXT } from "../constants"
+import { ABOUT_TEXT_P1 } from "../constants"
+import { ABOUT_TEXT_P2 } from "../constants"
 import { motion } from "framer-motion"
 
 const About = () => {
@@ -35,8 +36,9 @@ const About = () => {
             initial={{ opacity: 0, x:100 }}
             transition={{duration: 0.5}}
             className="w-full lg:w-1/2">
-                <div className="flex items-center justify-center lg:mt-40 lg:justify-start lg:p-8">
-                    <p className="my-2 maxw-xl py-6">{ABOUT_TEXT}</p>
+                <div className="flex flex-col items-center justify-center lg:mt-20 lg:justify-start lg:p-8">
+                    <p className="my-2 maxw-xl py-6">{ABOUT_TEXT_P1}</p>
+                    <p className="my-2 maxw-xl py-6">{ABOUT_TEXT_P2}</p>
                 </div>
             </motion.div>
 

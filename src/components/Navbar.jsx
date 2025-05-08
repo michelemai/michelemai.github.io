@@ -29,11 +29,11 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex text-brown font-singleday m-4 items-center justify-end gap-4 text-xl">
                 <img src={waveGif} alt="waving"/>
-                <a href="#home" className="hover:text-gray-400 transition-colors">Home</a>
-                <a href="#about" className="hover:text-gray-400 transition-colors">About</a>
-                <a href="#technologies" className="hover:text-gray-400 transition-colors">Technologies</a>
-                <a href="#experience" className="hover:text-gray-400 transition-colors">Experience</a>
-                <a href="#projects" className="hover:text-gray-400 transition-colors">Projects</a>
+                <a href="#home" className="hover:text-blue-300 transition-colors">Home</a>
+                <a href="#about" className="hover:text-blue-300 transition-colors">About</a>
+                <a href="#technologies" className="hover:text-blue-300 transition-colors">Technologies</a>
+                <a href="#experience" className="hover:text-blue-300 transition-colors">Experience</a>
+                <a href="#projects" className="hover:text-blue-300 transition-colors">Projects</a>
 
             </div>
 

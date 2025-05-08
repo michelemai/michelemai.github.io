@@ -34,8 +34,8 @@ const Experience = () => {
                     initial={{ opacity: 0, x:100 }}
                     transition={{duration: 1}}
                     className="w-full max-w-xl lg:w-3/4"> 
-                        <h6 className="mb-2 font-semibold font-singleday text-3xl">
-                            {experience.company} - <span className="text-xl text-brown">{experience.role} 💖</span>
+                        <h6 className="mb-2 font-semibold font-singleday text-3xl"><a href={experience.link} target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-colors">
+                            {experience.company} </a>- <span className="text-xl text-brown">{experience.role} 💖</span>
                         </h6>
                         <p className="mb-4 text-neutral-400">{experience.description}</p>
                         <div className="flex flex-wrap">

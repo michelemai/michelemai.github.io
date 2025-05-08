@@ -3,38 +3,40 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT_P1 = `I first learned how to code in the 12th grade in an AP Comp Sci class I decided to sign up for last minute because my friend was doing it too. I always thought coding was super complicated and I didn't understand
+why other students would pick it as their elective. I'd always pick electives like art and dance. However, this class quickly became my favourite class in the 12th grade. Coding become a creative outlet that I once thought could only
+be found in things like art and dance. 
+`;
+
+export const ABOUT_TEXT_P2 = `Fast forward to the present day where I graduated with a degree in computer engineering. I am constantly learning new skills with the things I build. While most of my experience lies in 
+backend web development, I love learning and taking on new challenges like teaching myself React (hence this website!) as I work towards becoming a well-rounded full stack developer.   
+`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2023 - Aug 2023",
+    role: "Software Engineering Intern",
+    company: "Dyne Technologies",
+    link: "https://www.dyneapp.ca/",
+    description: `At Dyne, I developed Python services to integrate with POS systems like Oracle Micros and Lightspeed, enabling transactional data collection for ML driven features such as dynamic pricing. I also built TypeScript API endpoints to extract and analyze customer reviews from Google and Yelp using SerpAPI, improving sentiment insights for restaurant clients.`,
+    technologies: ["TypeScript", "Python", "REST APIs"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Jan 2022 - Sept 2022",
+    role: "Software Engineering Intern",
+    company: "Space Alpha Insights",
+    link: "https://www.spacealphainsights.com/",
+    description: `I built a PyQt-based database GUI using Python and SQL, following the MVC design pattern. I implemented features like auto-refresh to ensure real-time data updates while users edited entries. I also participated in weekly demos and code reviews with a cross-functional team of software, embedded, and test engineers.`,
+    technologies: ["Python", "PyQt", "SQL", "MariaDB"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite", "Postgres"],
+    year: "June 2021 - Sept 2021",
+    role: "Technical Sales Engineering Intern",
+    company: "Cisco Systems",
+    link:"https://www.cisco.com/site/ca/en/index.html",
+    description: `I completed the technical sales training program at Cisco. I conducted digital transformation research for enterprise accounts ranging from $300K to $10M. Additionally, I designed a Webex bot using Python and JavaScript that integrated with Cisco’s security APIs (like AMP), allowing users to check device vulnerabilities through chat commands.`,
+    technologies: ["Sales Training", "Technical Presentations", "Python", "JavaScript"],
   },
 ];
 

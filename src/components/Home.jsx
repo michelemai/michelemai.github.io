@@ -47,7 +47,7 @@ const Home = () => {
                             initial="hidden"
                             animate="visible"
                             className="font-cascadia text-2xl font-light">
-                            Software Engineer
+                            Software Developer and Baking Enthusiast
                         </motion.span>
                         <motion.p variants={container(1)}
                             initial="hidden"
