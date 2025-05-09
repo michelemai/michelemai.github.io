@@ -42,37 +42,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "UBC Course Connect (Android Mobile App)",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Built a mobile app for UBC students to view historical grade data and join course forums. Developed features like admin access, personalized course recommendations, and real-time push notifications using Android Studio, Node.js, and MongoDB. Deployed the backend on Azure with secure HTTPS via AWS API Gateway.",
     link:"https://github.com/michele8231/UBC-Course-Connect",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["Java (Android Studio)", "Node.js", "MongoDB", "Azure", "AWS API Gateway"],
   },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    link:"https://github.com/michele8231/UBC-Course-Connect",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    link:"https://github.com/michele8231/UBC-Course-Connect",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    link:"https://github.com/michele8231/UBC-Course-Connect",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
 ];
 
 export const CONTACT = {
