@@ -33,7 +33,11 @@ const Projects = () => {
                     className="w-full max-w-xl lg:w-3/4"> 
                     <div className="flex items-center gap-2">
                     <h6 className="mb-2 font-singleday text-3xl">{project.title} </h6>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer"><FaLink className="text-xl hover:text-blue-300 transition-colors relative -top-1"></FaLink></a>
+                    {project.link && project.link.trim() !== '' && (
+                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                        <FaLink className="text-xl hover:text-blue-300 transition-colors relative -top-1" />
+                        </a>
+                    )}
                     </div>
                     <p className="mb-4 text-neutral-400">{project.description}</p> 
                     <div className="flex flex-wrap">
