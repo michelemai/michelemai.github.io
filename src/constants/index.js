@@ -45,7 +45,7 @@ export const PROJECTS = [
     title: "UBC Course Connect (Android Mobile App)",
     image: project1,
     description:
-      "Built a mobile app for UBC students to view historical grade data and join course forums. Developed features like admin access, personalized course recommendations, and real-time push notifications using Android Studio, Node.js, and MongoDB. Deployed the backend on Azure with secure HTTPS via AWS API Gateway.",
+      "Built a mobile app for UBC students to view historical grade data and join course forums. I developed features like admin access, personalized course recommendations, and real-time push notifications using Android Studio, Node.js, and MongoDB. I also deployed the backend on Azure with secure HTTPS via AWS API Gateway.",
     link:"https://github.com/michele8231/UBC-Course-Connect",
     technologies: ["Java (Android Studio)", "Node.js", "MongoDB", "Azure", "AWS API Gateway", "Jest", "Espresso (UI Testing)"],
   },
@@ -53,7 +53,7 @@ export const PROJECTS = [
     title: "Real-Time Historical Market Data Collection System",
     image: project1,
     description: 
-      "A capstone project focused on building a web application that fetches historical market data from the Interactive Brokers TWS API. The platform features user authentication, request validation, account management, subscription tiers, and Stripe payment integration. Designed to make global market data more accessible, the system supports efficient data processing and empowers users to make informed financial decisions with ease.",
+      "A capstone project focused on building a web application that fetches historical market data from the Interactive Brokers TWS API. I created the backend APIs using Node.js and used Jest for testing for platform features such as user authentication, request validation, account management, subscription tiers, and Stripe payment integration. Designed to make global market data more accessible, the system supports efficient data processing and empowers users to make informed financial decisions with ease.",
     link:"",
     technologies: ["Next.js", "Node.js", "MSSQL", "Jest"]
   },
